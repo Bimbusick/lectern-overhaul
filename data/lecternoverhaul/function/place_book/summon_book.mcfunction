@@ -1,0 +1,8 @@
+$summon item_display ~ ~ ~ {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0.195f,0.981f,0f],translation:[-0.21875f,0.108f,-0.149f],scale:[1f,1f,1f]},item:{id:"minecraft:firework_star",count:1,components:{"minecraft:custom_model_data":{"strings":["148800"]}}},Tags:["lectern.book.cover","left"],Rotation:[$(rotation)f,0f],interpolation_duration:2}
+$summon item_display ~ ~ ~ {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[-0.195f,0f,0f,0.981f],translation:[-0.21875f,0.05f,-0.125f],scale:[1f,1f,1f]},item:{id:"minecraft:firework_star",count:1,components:{"minecraft:custom_model_data":{"strings":["148801"]}}},Tags:["lectern.book.cover","right"],Rotation:[$(rotation)f,0f],interpolation_duration:2}
+summon interaction ^-0.21875 ^-0.125 ^0.1875 {Tags:["lectern.book.interact","left"],width:0.4375f,height:0.375f,response:1b}
+summon interaction ^0.21875 ^-0.125 ^0.1875 {Tags:["lectern.book.interact","right"],width:0.4375f,height:0.375f,response:1b}
+
+$summon text_display ~ ~ ~ {billboard:"fixed",interpolation_duration:2,line_width:114,shadow:1b,alignment:"left",Tags:["lectern.book.text"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,1f,0f,0f],translation:[0f,0f,0f],scale:[0f,0f,0f]},Rotation:[$(rotation)f,0f],text_opacity:25,background:419430400,brightness:{sky:15,block:15}}
+
+$data modify entity @e[type=marker,tag=lectern.book,tag=set.data,distance=..0.5,limit=1] data.rotation set value $(rotation)f

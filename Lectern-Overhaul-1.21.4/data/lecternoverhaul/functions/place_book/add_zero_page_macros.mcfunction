@@ -1,0 +1,1 @@
+$data modify entity @e[type=marker,tag=lectern.book,tag=set.data,distance=..0.5,limit=1] data.book_pages prepend value {raw:'"$(title)\\n\\n§o$(author)"'}

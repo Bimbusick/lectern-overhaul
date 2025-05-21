@@ -1,0 +1,15 @@
+{
+  "pack": {
+    "pack_format": 61,
+    "description": [
+      {
+        "text": "Reworks vanilla lectern\n",
+        "color": "gray"
+      },
+      {
+        "text": "Made by Bimba (1.21.4 version by barden)",
+        "color": "gold"
+      }
+    ]
+  }
+}

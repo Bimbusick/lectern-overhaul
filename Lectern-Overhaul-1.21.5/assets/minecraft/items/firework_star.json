@@ -1,0 +1,33 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/firework_star"
+        },
+        "cases":[
+            {
+                "when": "148800",
+                "model": {
+                    "type": "model",
+                    "model": "item/book_left"
+                }
+            },
+            {
+                "when": "148801",
+                "model": {
+                    "type": "model",
+                    "model": "item/book_right"
+                }
+            },
+            {
+                "when": "148802",
+                "model": {
+                    "type": "model",
+                    "model": "item/book_page"
+                }
+            }
+        ]
+    }
+}

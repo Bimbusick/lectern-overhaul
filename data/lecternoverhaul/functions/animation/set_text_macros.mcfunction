@@ -1,1 +1,0 @@
-$data modify entity @s text set from entity @e[type=marker,tag=lectern.book,distance=..0.5,limit=1] data.book_pages[$(index)].raw

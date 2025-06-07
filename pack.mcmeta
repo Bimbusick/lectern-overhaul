@@ -1,15 +1,29 @@
 {
-  "pack": {
-    "pack_format": 41,
-    "description": [
-      {
-        "text": "Reworks vanilla lectern\n",
-        "color": "gray"
-      },
-      {
-        "text": "Made by Bimba",
-        "color": "gold"
-      }
-    ]
-  }
+    "pack": {
+        "pack_format": 79,
+        "supported_formats": {
+            "min_inclusive": 71,
+            "max_inclusive": 80
+        },
+        "description": [
+            {
+                "text": "Reworks a lectern"
+            },
+            {
+                "text": "\nMade by Bimba",
+                "color": "gold"
+            }
+        ]
+    },
+    "overlays": {
+        "entries": [
+            {
+                "directory": "dialog_feature",
+                "formats": {
+                    "min_inclusive": 79,
+                    "max_inclusive": 80
+                }
+            }
+        ]
+    }
 }

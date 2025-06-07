@@ -1,0 +1,3 @@
+{
+    "warning.lectern_overhaul.resource_pack": "§2✔ [Lectern Overhaul] §7Resource Pack was installed. Enjoy the Datapack!\nTo open settings, type this in the chat:\n    §6\"/trigger lectern_overhaul.set_settings\"\n§7To disable this warning, type this:\n    §6\"/trigger lectern_overhaul.disable_warning\""
+}

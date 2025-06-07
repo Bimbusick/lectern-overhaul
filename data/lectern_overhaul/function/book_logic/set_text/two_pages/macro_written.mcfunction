@@ -1,0 +1,2 @@
+$data modify entity @s text set from entity @s data.book.components."minecraft:written_book_content".pages[$(left_page)].raw
+$execute if score @s lectern_overhaul.page <= @s lectern_overhaul.page_max run data modify entity @e[type=text_display,tag=lectern_overhaul.book.second_text,distance=..0.1,limit=1] text set from entity @s data.book.components."minecraft:written_book_content".pages[$(right_page)].raw
